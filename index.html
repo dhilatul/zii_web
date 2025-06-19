@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selamat Ulang Tahun, zii</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #fef9f4, #ffe7e0);
+      color: #4e3e36;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #7d5f50;
+    }
+    .card {
+      background: #fff4ec;
+      border-radius: 20px;
+      padding: 1.5rem;
+      max-width: 400px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .poem {
+      font-style: italic;
+      margin: 1rem 0;
+      line-height: 1.7;
+    }
+    .butterfly {
+      width: 80px;
+      animation: float 3s ease-in-out infinite;
+      margin-bottom: 1.2rem;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    audio {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://cdn-icons-png.flaticon.com/512/1865/1865251.png" class="butterfly" alt="Butterfly icon" />
+
+  <h1>Selamat Ulang Tahun, zii </h1>
+  <div class="subtitle">Semoga di semua hari penuh lembut dan bahagia.</div>
+
+  <div class="card">
+    <p class="poem">
+      Aku tak membawa bunga, <br />
+      tapi doa yang tak layu.<br />
+      Untukmu yang terus tumbuh,<br />
+      semoga semesta menjagamu dengan utuh.<br /><br />
+      Jika bahagia itu burung kecil,<br />
+      semoga ia bersarang di pundakmu tiap pagi.<br />
+      Dan jika cinta itu angin lembut,<br />
+      semoga ia mengusap langkahmu dengan hati.
+    </p>
+  </div>
+
+    <audio autoplay loop>
+  <source src="lagu/WhatsApp Audio 2025-06-20 at 00.14.06.mpeg" type="audio/mpeg">
+</audio>
+
+  </audio>
+</body>
+</html>
